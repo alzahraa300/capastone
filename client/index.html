@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERN Application</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.18.9/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    // SignIn Component
+    function SignIn({ setToken }) {
+      const [email, setEmail] = useState('');
+      const [password, setPassword] = useState('');
+      const [error, setError] = useState('');
+
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await axios.post('http://<LINUX_VM_IP>:5000/api/auth/login', { email, password });
+          setToken(response.data.token);
+          localStorage.setItem('token', response.data.token);
+        } catch (err) {
+          setError('Invalid credentials');
+        }
+      };
+
+      return (
+        <div className="flex justify-center items-center h-screen">
+          <div className="bg-white p-8 rounded shadow-md w-96">
+            <h2 className="text-2xl mb-4">Sign In</h2>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
+                Sign In
+              </button>
+            </form>
+            {error && <p className="text-red-500 mt-4">{error}</p>}
+            <p className="mt-4">
+              Don't have an account? <a href="#" onClick={() => window.location.reload()}>Sign Up</a>
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    // SignUp Component
+    function SignUp({ setToken }) {
+      const [email, setEmail] = useState('');
+      const [password, setPassword] = useState('');
+      const [error, setError] = useState('');
+
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await axios.post('http://<LINUX_VM_IP>:5000/api/auth/register', { email, password });
+          setToken(response.data.token);
+          localStorage.setItem('token', response.data.token);
+        } catch (err) {
+          setError('Registration failed');
+        }
+      };
+
+      return (
+        <div className="flex justify-center items-center h-screen">
+          <div className="bg-white p-8 rounded shadow-md w-96">
+            <h2 className="text-2xl mb-4">Sign Up</h2>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
+                Sign Up
+              </button>
+            </form>
+            {error && <p className="text-red-500 mt-4">{error}</p>}
+            <p className="mt-4">
+              Already have an account? <a href="#" onClick={() => window.location.reload()}>Sign In</a>
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    // ActionForm Component
+    function ActionForm({ token }) {
+      const [formData, setFormData] = useState({ item: '', quantity: '', action: '' });
+      const [showForm, setShowForm] = useState(false);
+
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          await axios.post('http://<LINUX_VM_IP>:5000/api/actions', formData, {
+            headers: { Authorization: `Bearer ${token}` },
+          });
+          alert('Action saved successfully');
+          setFormData({ item: '', quantity: '', action: '' });
+          setShowForm(false);
+        } catch (err) {
+          alert('Failed to save action');
+        }
+      };
+
+      return (
+        <div className="p-8">
+          <h2 className="text-2xl mb-4">Dashboard</h2>
+          <div className="mb-4">
+            <button
+              onClick={() => { setFormData({ ...formData, action: 'buy' }); setShowForm(true); }}
+              className="bg-green-500 text-white p-2 rounded mr-2"
+            >
+              Buy
+            </button>
+            <button
+              onClick={() => { setFormData({ ...formData, action: 'sell' }); setShowForm(true); }}
+              className="bg-red-500 text-white p-2 rounded"
+            >
+              Sell
+            </button>
+          </div>
+          {showForm && (
+            <form onSubmit={handleSubmit} className="bg-white p-4 rounded shadow-md">
+              <input
+                type="text"
+                value={formData.item}
+                onChange={(e) => setFormData({ ...formData, item: e.target.value })}
+                placeholder="Item"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <input
+                type="number"
+                value={formData.quantity}
+                onChange={(e) => setFormData({ ...formData, quantity: e.target.value })}
+                placeholder="Quantity"
+                className="w-full p-2 mb-4 border rounded"
+                required
+              />
+              <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
+                Submit {formData.action.charAt(0).toUpperCase() + formData.action.slice(1)}
+              </button>
+            </form>
+          )}
+        </div>
+      );
+    }
+
+    // Main App Component
+    function App() {
+      const [token, setToken] = useState(localStorage.getItem('token') || '');
+
+      return (
+        <div>
+          {!token ? (
+            window.location.hash === '#signup' ? (
+              <SignUp setToken={setToken} />
+            ) : (
+              <SignIn setToken={setToken} />
+            )
+          ) : (
+            <ActionForm token={token} />
+          )}
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
