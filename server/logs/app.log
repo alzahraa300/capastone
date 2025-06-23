@@ -34,3 +34,172 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T07:54:56.511Z"}
 {"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T07:54:56.513Z"}
 {"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T07:54:56.520Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T08:18:28.322Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T08:18:28.324Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T08:18:28.334Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T08:25:15.326Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T08:25:15.329Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T08:25:15.337Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T08:29:13.660Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T08:29:13.661Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T08:29:13.669Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T08:42:20.412Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T08:42:20.415Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T08:42:20.422Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T08:57:20.527Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T08:57:20.530Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T08:57:20.542Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T09:02:36.965Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T09:02:36.967Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T09:02:36.977Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-06-22T09:08:19.192Z"}
+{"level":"info","message":"MongoDB URI: mongodb://192.168.100.46:27017/mernapp","timestamp":"2025-06-22T09:08:19.194Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T09:08:19.202Z"}
+{"level":"info","message":"Server running on http://localhost:5000","timestamp":"2025-06-22T09:45:59.922Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T09:45:59.935Z"}
+{"level":"info","message":"User registered: test1@example.com","timestamp":"2025-06-22T09:47:25.006Z"}
+{"level":"info","message":"Action saved: buy apple (2) by 6857d12c0d9930658e5306d1","timestamp":"2025-06-22T09:50:10.402Z"}
+{"level":"info","message":"Action saved: sell heremez bag (4000) by 6857d12c0d9930658e5306d1","timestamp":"2025-06-22T09:50:37.653Z"}
+{"level":"info","message":"Gracefully shutting down...","timestamp":"2025-06-22T09:52:04.470Z"}
+{"level":"info","message":"Server running on http://localhost:5000","timestamp":"2025-06-22T14:14:45.992Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T14:14:46.070Z"}
+{"level":"warn","message":"Login failed for: test@example.com","timestamp":"2025-06-22T14:16:43.468Z"}
+{"level":"info","message":"User registered: test@example.com","timestamp":"2025-06-22T14:16:50.780Z"}
+{"level":"info","message":"Action saved: buy bolghari watch  (1) by 685810523853d65d06143b3a","timestamp":"2025-06-22T14:17:20.197Z"}
+{"level":"info","message":"Server running on http://localhost:5000","timestamp":"2025-06-22T17:34:30.582Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T17:34:30.598Z"}
+{"level":"info","message":"Server running on http://192.168.100.46:5000","timestamp":"2025-06-22T17:43:58.200Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-06-22T17:43:58.211Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T18:17:44.962Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T18:17:44.966Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T18:17:44.976Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:17:53.267Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:17:55.126Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:17:55.699Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:17:56.355Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-06-22T18:17:59.716Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-06-22T18:18:01.041Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:18:23.835Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:18:28.251Z"}
+{"level":"info","message":"GET /api/health - ::1","timestamp":"2025-06-22T18:18:32.131Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-06-22T18:18:37.709Z"}
+{"level":"info","message":"GET / - ::ffff:127.0.0.1","timestamp":"2025-06-22T18:18:47.776Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T18:20:47.073Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T18:20:47.076Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T18:20:47.083Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T18:25:49.039Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T18:25:49.041Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T18:25:49.048Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T19:01:33.106Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T19:01:33.109Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T19:01:33.119Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T19:08:25.229Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T19:08:25.231Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T19:08:25.239Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T19:18:32.633Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T19:18:32.635Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T19:18:32.642Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T19:19:51.257Z"}
+{"level":"warn","message":"Failed login attempt for: test@example.com","timestamp":"2025-06-22T19:19:51.699Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T19:20:01.846Z"}
+{"level":"info","message":"User logged in successfully: test@example.com","timestamp":"2025-06-22T19:20:02.147Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:20:02.162Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:20:02.166Z"}
+{"level":"info","message":"Seeded initial coffee data","timestamp":"2025-06-22T19:20:02.229Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:20:15.071Z"}
+{"level":"info","message":"Action saved: add_to_cart Cold Brew (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:20:15.149Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:20:27.248Z"}
+{"level":"info","message":"Action saved: add_to_cart Iced Latte (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:20:27.261Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T19:21:10.354Z"}
+{"level":"info","message":"Order placed successfully by user 685810523853d65d06143b3a: $7.75","timestamp":"2025-06-22T19:21:10.373Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T19:24:37.528Z"}
+{"level":"warn","message":"Login attempt with non-existent email: a@gmail.com","timestamp":"2025-06-22T19:24:37.533Z"}
+{"level":"info","message":"POST /api/auth/register - ::1","timestamp":"2025-06-22T19:24:56.374Z"}
+{"level":"info","message":"User registered successfully: a@gmail.com","timestamp":"2025-06-22T19:24:56.464Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:24:56.472Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:24:56.477Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:25:05.153Z"}
+{"level":"info","message":"Action saved: add_to_cart Espresso (1) by user 685858889fe3a8246257f9ec","timestamp":"2025-06-22T19:25:05.161Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:25:10.815Z"}
+{"level":"info","message":"Action saved: add_to_cart Ice Americano (1) by user 685858889fe3a8246257f9ec","timestamp":"2025-06-22T19:25:10.822Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T19:25:51.445Z"}
+{"level":"info","message":"Order placed successfully by user 685858889fe3a8246257f9ec: $5","timestamp":"2025-06-22T19:25:51.459Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T19:27:09.791Z"}
+{"level":"info","message":"User logged in successfully: a@gmail.com","timestamp":"2025-06-22T19:27:09.873Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:27:09.880Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:27:09.885Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:27:21.995Z"}
+{"level":"info","message":"Action saved: add_to_cart Flat White (1) by user 685858889fe3a8246257f9ec","timestamp":"2025-06-22T19:27:22.002Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:27:40.892Z"}
+{"level":"info","message":"Action saved: add_to_cart Ice Americano (1) by user 685858889fe3a8246257f9ec","timestamp":"2025-06-22T19:27:40.899Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T19:28:22.791Z"}
+{"level":"info","message":"Order placed successfully by user 685858889fe3a8246257f9ec: $5.75","timestamp":"2025-06-22T19:28:22.808Z"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","timestamp":"2025-06-22T19:48:35.701Z"}
+{"level":"info","message":"📊 Health check available at: http://localhost:5000/api/health","timestamp":"2025-06-22T19:48:35.703Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T19:48:35.712Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T19:49:29.555Z"}
+{"level":"info","message":"User logged in successfully: test@example.com","timestamp":"2025-06-22T19:49:29.949Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:49:29.961Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:49:29.964Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:49:34.077Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:49:34.091Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:49:37.132Z"}
+{"level":"info","message":"Action saved: add_to_cart Espresso (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:49:37.142Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:52:16.915Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:52:16.918Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:52:21.154Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:52:21.169Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T19:56:15.122Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T19:56:15.124Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T19:56:18.562Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T19:56:18.571Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T20:00:12.761Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T20:00:12.764Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:00:15.541Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T20:00:15.552Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T20:00:45.496Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T20:00:45.498Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:00:46.653Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1) by user 685810523853d65d06143b3a","timestamp":"2025-06-22T20:00:46.659Z"}
+{"level":"info","message":"Server running on port 5000 in development mode","timestamp":"2025-06-22T20:22:15.662Z"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2025-06-22T20:22:15.664Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T20:22:15.681Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T20:22:43.394Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T20:22:43.402Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:22:50.917Z"}
+{"level":"info","message":"Action saved: add_to_cart Espresso (1)","timestamp":"2025-06-22T20:22:50.934Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:23:14.945Z"}
+{"cardDetails":{},"items":[{"name":"Espresso","price":3.5,"quantity":1}],"level":"info","message":"Received order request:","notes":"","timestamp":"2025-06-22T20:23:14.950Z","total":3.5}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:23:59.576Z"}
+{"cardDetails":{},"items":[{"name":"Espresso","price":3.5,"quantity":1}],"level":"info","message":"Received order request:","notes":"","timestamp":"2025-06-22T20:23:59.580Z","total":3.5}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:24:31.901Z"}
+{"cardDetails":{},"items":[{"name":"Espresso","price":3.5,"quantity":1}],"level":"info","message":"Received order request:","notes":"","timestamp":"2025-06-22T20:24:31.910Z","total":3.5}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:25:29.625Z"}
+{"level":"info","message":"Action saved: add_to_cart Latte (1)","timestamp":"2025-06-22T20:25:29.634Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:25:45.987Z"}
+{"cardDetails":{},"items":[{"name":"Espresso","price":3.5,"quantity":1},{"name":"Latte","price":5,"quantity":1}],"level":"info","message":"Received order request:","notes":"","timestamp":"2025-06-22T20:25:45.994Z","total":8.5}
+{"level":"info","message":"Server running on port 5000 in development mode","timestamp":"2025-06-22T20:33:53.996Z"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2025-06-22T20:33:53.999Z"}
+{"level":"info","message":"Connected to MongoDB successfully","timestamp":"2025-06-22T20:33:54.007Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T20:35:02.686Z"}
+{"level":"info","message":"User logged in: a@gmail.com","timestamp":"2025-06-22T20:35:02.817Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T20:35:02.834Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T20:35:02.838Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:35:13.280Z"}
+{"level":"info","message":"Action saved: add_to_cart Cold Brew (1)","timestamp":"2025-06-22T20:35:13.294Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:35:35.292Z"}
+{"cardDetails":{"cardHolder":"HMZ "},"items":[{"_id":"685857629fe3a8246257f9dc","category":"Iced Coffee","description":"Smooth, less acidic coffee","image":"https://lifesimplified.gorenje.com/wp-content/uploads/2024/06/gorenje-blog-refreshing_cold_brew_coffee.jpg","name":"Cold Brew","price":4,"quantity":1}],"level":"info","message":"Received order request:","timestamp":"2025-06-22T20:35:35.300Z","total":4}
+{"level":"info","message":"Order saved: 6858691776166e5285ed3e1b","timestamp":"2025-06-22T20:35:35.318Z","total":4,"userId":"685858889fe3a8246257f9ec"}
+{"level":"info","message":"Order placed by user 685858889fe3a8246257f9ec: $4","timestamp":"2025-06-22T20:35:35.322Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2025-06-22T20:37:19.192Z"}
+{"level":"error","message":"Login error: Cannot read properties of null (reading 'loginAttempts')","stack":"TypeError: Cannot read properties of null (reading 'loginAttempts')\n    at C:\\Users\\analh\\OneDrive\\Desktop\\mern-app - Copy\\server\\index.js:282:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-22T20:37:19.201Z"}
+{"level":"info","message":"POST /api/auth/register - ::1","timestamp":"2025-06-22T20:37:38.255Z"}
+{"level":"info","message":"User registered: alzahraanassermansoor@gmail.com","timestamp":"2025-06-22T20:37:38.354Z"}
+{"level":"info","message":"GET /api/coffees - ::1","timestamp":"2025-06-22T20:37:38.363Z"}
+{"level":"info","message":"GET /api/orders - ::1","timestamp":"2025-06-22T20:37:38.364Z"}
+{"level":"info","message":"POST /api/actions - ::1","timestamp":"2025-06-22T20:37:53.971Z"}
+{"level":"info","message":"Action saved: add_to_cart Cappuccino (1)","timestamp":"2025-06-22T20:37:53.978Z"}
+{"level":"info","message":"POST /api/orders - ::1","timestamp":"2025-06-22T20:38:06.853Z"}
+{"cardDetails":{"cardHolder":"alz "},"items":[{"_id":"685857629fe3a8246257f9d9","category":"Hot Coffee","description":"Perfect balance of espresso and steamed milk","image":"https://www.nescafe.com/nz/sites/default/files/2023-09/NESCAF%C3%89%20Cappuccino.jpg","name":"Cappuccino","price":4.5,"quantity":1}],"level":"info","message":"Received order request:","timestamp":"2025-06-22T20:38:06.859Z","total":4.5}
+{"level":"info","message":"Order saved: 685869ae76166e5285ed3e2a","timestamp":"2025-06-22T20:38:06.873Z","total":4.5,"userId":"6858699276166e5285ed3e21"}
+{"level":"info","message":"Order placed by user 6858699276166e5285ed3e21: $4.5","timestamp":"2025-06-22T20:38:06.877Z"}
